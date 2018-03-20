@@ -1,3 +1,0 @@
-# Git-basics-Hend
-
- Welkom :)

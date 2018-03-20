@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Contactpage</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="parallax.js"></script>
+		<link href="css/font-awesome.min.css" rel="stylesheet"/>
+		<link rel="shortcut icon" type="image/png" href="img/flower.png"/>
+		
+		<!-- UIkit CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/css/uikit.min.css" />
+
+<!-- jQuery is required -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- UIkit JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/js/uikit.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.25/js/uikit-icons.min.js"></script>
+		<link href="css/contact.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="js/stickynav.js"></script>
+		<script src="js/fadein.js"></script>
+	</head>
+<body>
+
+
+		<header>
+				<nav>
+					<ul>
+						<li> <a href="index.html" > Home </a></li>
+						<li> <a href="about.html"> About me </a> </li>
+						<li><a href="projects.html"> Projects </a>
+							<ul>
+								<li><a href="case1.html">Dutch Bliss</a></li>
+								<li><a href="case2.html">Imperium</a></li>
+								<li><a href="case3.html">Robotica</a></li>
+							</ul>
+						</li>
+						<li><a href="process.html"> Process </a> </li>
+						<li> <a href="contact.html" class="current"> Contact </a></li>
+						<li> <a href="blog.html"> Blog </a></li>
+					</ul>
+				</nav>		
+			</header>
+
+			<div class="uk-height-large uk-background-cover uk-light uk-flex" id="parallaximg" uk-parallax="bgy: -100" style="background-image: url('img/contact.jpg');">
+			</div>
+					
+
+		<section class="contact">
+			<div id="wrapper">
+				<div class="title sticky">
+					<h2> Let's make something great <span> together </span></h2>
+					<hr/>
+				</div>
+				<section class="inner-contact">
+					<article class="info">
+						<div class="mail-info">
+							<a href="mailto:hendelshaarawi@hotmail.com" uk-icon="icon: mail"></a>
+							<a href="mailto:hendelshaarawi@hotmail.com">hendelshaarawi@hotmail.com</a>
+						</div>
+						<div class="phone-info">
+							<a href="#" uk-icon="icon: phone" class="phone"></a>
+							<a href="#" class="phone">+316 43 50 88 49</a>
+						</div>
+					</article>
+
+					<aside class="form">
+						<div id="form">
+						<form>
+							<fieldset class="uk-fieldset fieldset">
+								<label> Name:
+								<div class="uk-margin">
+									<input class="uk-input input-text place" type="text" placeholder="Name" id="name" name="name">
+								</div>
+								</label>
+
+								<label> E-mail adress:
+								<div class="uk-margin">
+									<input class="uk-input input-text place" type="e-mail" placeholder="E-mail adress" name="e-mailadress" id="e-mail"/>
+								</div>
+								</label>
+
+								<label> Subject:
+								<div class="uk-margin">
+									<input class="uk-input input-text place" type="text" placeholder="Projectname, preffered service, name coffeeplace I need to try" name="subject" id="subject">
+								</div>
+								</label>
+
+								<label> Message:
+								<div class="uk-margin">
+									<textarea class="uk-textarea input-text place" rows="5" placeholder="Write whatever you want. A message, a question, a comment or even a joke, I’ll take ‘em all. " class="place"></textarea>
+						        </div>
+						        </label>
+
+						        <button id="demo-javascript" class="demo uk-button uk-button-default button"  type="button" data-message="E-mail succesfully sent!">Send</button>
+
+								<script>
+									jQuery('#demo-javascript').on('click', function() {
+										UIkit.notification($(this).data());
+									});
+								</script>
+							</fieldset>
+						</form>
+						</div>
+					</aside>
+				</section>
+			</div>	
+		</section>		
+						
+		<br/>
+		<br/>
+	
+			<section class="footer">
+			<footer>
+				<a href="#wrapper" uk-totop uk-scroll></a>
+				<div class="inner-social">
+					<a href="https://www.linkedin.com/in/hend-elshaarawi-0617aa12a"  target="_blank" uk-icon="icon: linkedin; ratio: 1.5"></a>
+					<a href="http://pin.it/glpKq_N" target="_blank" uk-icon="icon:  pinterest; ratio: 1.5"></a>
+					<a href="mailto:hendelshaarawi@hotmail.com"  uk-icon="icon:  mail; ratio: 1.5"></a>
+				</div>
+				<div class="copyright">
+					<p>&copy; Created with love by Hend Elshaarawi.</p>
+				</div>			
+			</footer>
+		</footer>	
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
