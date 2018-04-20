@@ -162,7 +162,7 @@ nav ul li:hover > ul li{
 
 /*---END INTRODUCTION---*/
 
-.userpersona, .userstories, .prioritizing, .userflow, .visuals, .error, .payment, .end {
+.userpersona, .styletile, .invitation, .userflow, .visuals, .error, .payment, .end {
 	width: 100%;
 	float: left;
 	margin: 2% 0;
@@ -188,8 +188,13 @@ nav ul li:hover > ul li{
 }
 
 .persona {
-	width: 75%;
+	width: 55%;
+	margin: 1% auto;
+}
+
+.styletilepic {
 	margin: 2% auto;
+	width: 40%;
 }
 
 .prio p {
@@ -204,10 +209,10 @@ nav ul li:hover > ul li{
 	width: 35%;
 	margin: 2% auto 12% auto;
 }
-.prioritizing{
+.invitation{
 	margin-top: 5%;
 }
-.prioritizing-img {
+.invitation-img {
 	width: 55%;
 	margin: 2% auto;
 }

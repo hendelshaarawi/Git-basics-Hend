@@ -1,4 +1,4 @@
-
+/*github*/
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 * {
 	font-family: 'Nunito', 'sans-serif';
@@ -57,6 +57,45 @@ hr {
     width: 90px;
 }
 
+
+
+
+
+/*TEMPLATE TOTAL*/
+#wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas: "header"
+						"functions"
+						"about"
+						"projects"
+						"contact"
+						"footer"
+}
+
+/*div.parallax-window {
+	grid-area: header;
+}*/
+
+section.inter-wrapper-3 {
+	grid-area: functions;
+}
+
+section.about {
+	grid-area: about;
+}
+
+section.projects {
+	grid-area: projects;
+}
+
+section.contact {
+	grid-area: contact;
+}
+
+section.footer {
+	grid-area: footer;	
+}
 
 
 /* NAVIGATION */
@@ -204,6 +243,8 @@ nav ul li:hover > ul li{
 
 
 /*---ABOUT---*/
+
+
 
 .about {
 	float: left;
@@ -646,6 +687,8 @@ figure {
 @media screen and (max-width:320px){
 	#container {width: 320px; 
 	} 
+
+
 
 
 
